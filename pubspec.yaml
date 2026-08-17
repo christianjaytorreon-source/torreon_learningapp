@@ -1,0 +1,38 @@
+name: torreon_learningapp
+description: "A learning game for kids."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/music/mondamusic-retro-arcade-game-music-512837.mp3
+    - assets/music/hitslab-gaming-game-minecraft-background-music-278382.mp3
+    - assets/images/lion_PNG3806.png
+    - assets/images/elephant.png
+    - assets/images/giraffe.png
+    - assets/images/penguin.png
+    - assets/images/dolphin.png
+    - assets/images/butterfly.png
+    - assets/images/panda.png
+    - assets/images/cheetah.png
+    - assets/images/crocodile.png
+    - assets/images/eagle.png
